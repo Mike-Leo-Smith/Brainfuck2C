@@ -7,7 +7,7 @@ int main()
 	int c;
 	int intend = 1;
 	
-	system("echo rm brainfuck.c");
+	system("rm brainfuck.c");
 	
 	std::ofstream c_file("brainfuck.c");
 	
